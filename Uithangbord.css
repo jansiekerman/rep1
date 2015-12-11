@@ -1,22 +1,16 @@
 /** Add css rules here for your application. */
 
+* {
+  background-color: #80ffff;
+} 
 
 /** Example rules used by the template application (remove for your app) */
 
-* {
-  background-color: #00ff00;
-} 
-
-body {
-  color: purple;
-  background-color: #00ff00;
-}
 
 h1 {
   font-family: Arial;
   font-size: 2em;
   font-weight: 500;
-  background-color: #00ff00;
   color: #000000;
   margin: 40px 0px 70px;
   text-align: center;
@@ -26,8 +20,7 @@ h2 {
   font-family: Arial;
   font-size: 3em;
   font-weight: 200;
-  background-color: #00ff00;
-  color: #ff0000;
+  color: #ffffff;
   margin: 40px 0px 70px;
   text-align: center;
 }
@@ -36,7 +29,6 @@ h3 {
   font-family: Arial;
   font-size: 2em;
   font-weight: 100;
-  background-color: #00ff00;
   color: #000000;
   margin: 40px 0px 70px;
   text-align: center;
@@ -46,15 +38,21 @@ h4 {
   font-family: Arial;
   font-size: 1em;
   font-weight: 100;
-  background-color: #00ff00;
   color: #000000;
   margin: 40px 0px 70px;
   text-align: center;
 }
 
+h5 {
+  font-family: Arial;
+  font-size: 1em;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
 p { 
   text-align: center;
-  background-color: #00ff00;
 }
   
 div {
@@ -63,11 +61,6 @@ div {
 .sendButton {
   display: block;
   font-size: 16pt;
-}
-
-/** Most GWT widgets already have a style name defined */
-.gwt-DialogBox {
-  width: 400px;
 }
 
 .dialogVPanel {
